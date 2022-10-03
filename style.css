@@ -1,0 +1,62 @@
+body{
+    background-image: url("images/nature2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color:white;
+}
+/*  'Agify me' heading styling */
+.title{
+    margin:0 auto;
+    width: 100%;
+    max-width: 40rem;
+    font-size: 4rem;
+    text-align: center;
+}
+/*  Card  styling */
+.card{
+    width: 90%;
+    max-width: 400px;
+    padding: 5rem 2.5rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0,0,0, 0.5);
+
+    border-top-color: rgba(225,225,225, 0.5);
+    border-left-color: rgba(225,225,225, 0.5);
+    border-bottom-color: rgba(225,225,225, 0.1);
+    border-right-color: rgba(225,225,225, 0.1);
+}
+/* Input trxt and assosciated box */
+input{
+    text-align: center;
+    width: 100%;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 2rem;
+    outline: none;
+    }
+    ::placeholder { 
+        text-align: center;
+        color:rgba(225,225,225, 0.6);
+        opacity: 1; 
+      }
+ /* grey transaprent card body */ 
+.cb{
+   background-color: rgba(225,225,225, 0.1) ; 
+
+}
+.AgeDisplay{
+    color:rgba(225,225,225, 0.9) ;
+    font-size: 3rem;
+    z-index: -1;
+    
+}
+.btn{
+    border-radius: 2rem;
+}
+.btn:hover{
+    box-shadow: 0  0.3rem  1rem rgba(0,0,0, 0.3);
+}

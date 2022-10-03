@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agify</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!--Developed By => Devansh, Laxmi & Yashika-->
+</head>
+<body>
+    <div class="container">
+        <h1 class="title text-center py-4 ">Agify Me</h1>
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <!--- Card -->
+                <div class="card m-6 cb text-center">
+                    <div class="card-body">
+                      <h5 class="card-title mb-4">Your Age</h5>
+                      <span class="AgeDisplay fw-bold" id="ageDisplay">__</span>
+                        <p></p>
+
+                        <input type="text" id="name" placeholder="Enter your name"> 
+                      <p class="card-text">Enter your name to check your age, Its fun !!!!</p>
+                      <a href="#" id="button1" class="btn btn-outline-light">Get Age</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+     <script src="script.js"></script>
+     <!-------------- Tilt effect-------------------->
+     <script type="text/javascript" src="vanilla-tilt.js"></script>
+     <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".cardt"), {
+        max: 25,
+        speed: 400
+      });
+      VanillaTilt.init(document.querySelectorAll(".card"));
+      
+    </script>
+</body>
+</html>

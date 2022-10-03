@@ -1,0 +1,24 @@
+------------------- Project Info-------------------------
+This project is a part of hackathon conducted by Coding Blocks on 02-10-22.
+Course instructor: Shresth Sahai
+
+Project title: "Agify Me"
+
+Team name: Coding Owls
+Members:
+1. Devansh Subnani
+2. Laxmi Biradar
+3. Yashika Agarwal
+
+
+
+-----------------------------------------------------------------
+1. API used:	https://api.agify.io/?name=bella
+2. Front end inspiration videos:
+	a) Glass card - https://www.youtube.com/watch?v=AIS3rPaaSOs
+	b) Tilt effect - https://www.youtube.com/watch?v=hv0rNxr1XXk
+
+3. Tilt javascript library - https://micku7zu.github.io/vanilla-tilt.js/
+
+4. List of Free Open APIs
+https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
